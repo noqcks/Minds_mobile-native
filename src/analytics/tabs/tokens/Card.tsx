@@ -71,13 +71,13 @@ const Title = ({ type }: { type: CardType }) => {
             {i18n.t(`analytics.tokens.tooltips.${type}`)}
           </MText>
         }>
+        </Tooltip>
         <Icon
           name="information-variant"
           size={15}
           color="#AEB0B8"
           style={theme.paddingTop}
         />
-      </Tooltip>
     </View>
   );
 };
