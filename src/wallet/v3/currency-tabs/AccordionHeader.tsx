@@ -34,7 +34,8 @@ const AccordionHeader = ({ title, subtitle, tooltip, isActive }: PropsType) => {
               width={tooltip.width}
               height={tooltip.height}
               backgroundColor={ThemedStyles.getColor('Link')}
-              popover={<B2 color="white">{tooltip.title}</B2>}>
+              popover={<B2 color="white">{tooltip.title}</B2>}
+            >
               <Icon name="info" size="tiny" />
             </Tooltip>
           </Spacer>
