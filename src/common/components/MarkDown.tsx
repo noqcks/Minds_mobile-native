@@ -4,7 +4,7 @@ type MarkDownProps = MarkdownProps & {
   disableLinks?: boolean;
 };
 
-export function MarkDown(props: MarkDownProps) {
+export function MarkDown(props: MarkDownProps & { children?: React.ReactNode }) {
   const { disableLinks, children, ...markdownProps } = props;
   if (disableLinks) {
     markdownProps.onLinkPress = () => false;
