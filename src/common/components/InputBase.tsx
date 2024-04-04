@@ -81,8 +81,9 @@ export default function InputBase({
             width={200}
             height={100}
             backgroundColor={ThemedStyles.getColor('Link')}
-            popover={<MText style={theme.colorWhite}>{info}</MText>}>
-            <Icon left="S" name="info-outline" bottom="S" />
+            popover={<MText style={theme.colorWhite}>{info}</MText>}
+          >
+            {<Icon left="S" name="info-outline" bottom="S" />}
           </Tooltip>
         )}
         {icon ? icon : null}
