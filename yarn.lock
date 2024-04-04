@@ -3309,10 +3309,10 @@
     tslib "^2.5.0"
     webcrypto-core "^1.7.7"
 
-"@react-native-camera-roll/camera-roll@^5.4.0":
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/@react-native-camera-roll/camera-roll/-/camera-roll-5.4.0.tgz#f9dfb2fb37f6f88b70801e727282dd9157bf62be"
-  integrity sha512-SMEhc+2hQWubwzxR6Zac0CmrJ2rdoHHBo0ibG2iNMsxR0dnU5AdRGnYF/tyK9i20/i7ZNxn+qsEJ69shpkd6gg==
+"@react-native-camera-roll/camera-roll@^7.5.2":
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/@react-native-camera-roll/camera-roll/-/camera-roll-7.5.2.tgz#2b248a835fbb8b53d04fc0c2957adba1474d9c99"
+  integrity sha512-XiVIrW17EFXrFzqB48q6cQOaYeVnw0iC3tH+Jhl+MAHDYGLJp+ulzxCNNwngaMvnVAA5Q2mUMzRocUiJPy8q0g==
 
 "@react-native-clipboard/clipboard@^1.7.0":
   version "1.11.2"
